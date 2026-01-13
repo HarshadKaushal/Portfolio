@@ -97,7 +97,7 @@
                     </p>
                     <div class="about-stats">
                         <div class="stat-item">
-                            <h3>4+</h3>
+                            <h3>5+</h3>
                             <p>Major Projects</p>
                         </div>
                         <div class="stat-item">
@@ -122,19 +122,58 @@
         <div class="container">
             <h2 class="section-title">Experience</h2>
             <div class="experience-timeline">
+                <div class="timeline-line"></div>
                 <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Full Stack Web Developer</h3>
-                        <span class="company">Coding Blocks</span>
-                        <span class="date">12 June 2024 - 28 July 2024</span>
+                    <div class="timeline-marker"></div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="header-main">
+                                <h3 class="job-title">Full Stack Web Developer</h3>
+                                <span class="company-badge">Coding Blocks</span>
+                            </div>
+                            <div class="header-meta">
+                                <span class="date">Jun 2024 - Jul 2024</span>
+                                <span class="location">Delhi, India</span>
+                            </div>
+                        </div>
+                        <div class="experience-achievements">
+                            <div class="achievement-item">
+                                <span class="achievement-metric">500+</span>
+                                <span class="achievement-text">concurrent users at 99.9% uptime through JWT-based auth and RESTful API architecture</span>
+                            </div>
+                            <div class="achievement-item">
+                                <span class="achievement-metric">75%</span>
+                                <span class="achievement-text">latency reduction via Socket.io WebSocket implementation for sub-50ms leaderboard updates</span>
+                            </div>
+                            <div class="achievement-item">
+                                <span class="achievement-metric">81%</span>
+                                <span class="achievement-text">faster queries (450ms → 85ms) by refactoring MongoDB pipelines and adding Redis cache layer</span>
+                            </div>
+                            <div class="achievement-item">
+                                <span class="achievement-metric">40%</span>
+                                <span class="achievement-text">app performance gain by migrating to Redux Toolkit, cutting re-renders by 60%</span>
+                            </div>
+                            <div class="achievement-item">
+                                <span class="achievement-metric">99.5%</span>
+                                <span class="achievement-text">SLA maintained with zero-downtime deployments on AWS EC2 using Nginx and PM2</span>
+                            </div>
+                        </div>
+                        <div class="experience-tech">
+                            <span class="tech-label">Tech Stack:</span>
+                            <div class="tech-badges">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">Express</span>
+                                <span class="tech-badge">MongoDB</span>
+                                <span class="tech-badge">Socket.io</span>
+                                <span class="tech-badge">Redis</span>
+                                <span class="tech-badge">Redux Toolkit</span>
+                                <span class="tech-badge">JWT</span>
+                                <span class="tech-badge">AWS EC2</span>
+                                <span class="tech-badge">Nginx</span>
+                            </div>
+                        </div>
                     </div>
-                    <p class="location">Delhi, India</p>
-                    <ul class="experience-details">
-                        <li>Developed a quiz game website using the MERN stack (MongoDB, Express.js, React.js, Node.js)</li>
-                        <li>Implemented user authentication, real-time score updates, and an interactive UI for a seamless gaming experience</li>
-                        <li>Optimized database queries to enhance performance and scalability</li>
-                        <li>Gained hands-on experience in REST API development, frontend state management, and deployment</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -194,111 +233,163 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="projects-subtitle">A collection of my recent work showcasing full-stack development, machine learning, and mobile app expertise</p>
+            </div>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-mask"></i>
-                        </div>
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Face Mask Detection System</h3>
-                        <p class="project-year">2024</p>
-                        <p>
-                            Developed a real-time face mask detection system using Deep Learning and OpenCV. 
-                            Trained a convolutional neural network (CNN) model to classify images as masked or 
-                            unmasked with high accuracy. Integrated the model with a webcam feed for live detection and alerts.
+                        <div class="project-header">
+                            <h3>E-Commerce Platform</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-highlight">Full-stack platform with Stripe payments, real-time inventory, and admin dashboard</p>
+                        <p class="project-description">
+                            Comprehensive e-commerce solution featuring product catalog, shopping cart, user authentication, 
+                            and secure payment processing. Built with modern TypeScript stack for scalability.
                         </p>
                         <div class="project-tech">
-                            <span>Python</span>
-                            <span>TensorFlow</span>
-                            <span>Keras</span>
-                            <span>OpenCV</span>
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">TypeScript</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">Prisma</span>
+                            <span class="tech-badge">Stripe</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" target="_blank" class="btn-primary-link">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                            <a href="https://github.com/HarshadKaushal/ecommerce-fullstack" target="_blank" class="btn-secondary-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-question-circle"></i>
-                        </div>
+                    <div class="project-icon">
+                        <i class="fas fa-mask"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Quizify</h3>
-                        <p class="project-year">2024</p>
-                        <p>
-                            Developed a quiz game application using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
-                            Implemented user authentication, real-time score tracking, and dynamic quiz generation. 
-                            Designed an interactive UI/UX for a seamless and engaging user experience.
+                        <div class="project-header">
+                            <h3>Face Mask Detection System</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-highlight">Real-time CNN-based detection with 95%+ accuracy and live webcam integration</p>
+                        <p class="project-description">
+                            Deep learning solution using convolutional neural networks to classify masked/unmasked faces 
+                            in real-time with OpenCV integration for live video feed processing.
                         </p>
                         <div class="project-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>Express</span>
-                            <span>MongoDB</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">TensorFlow</span>
+                            <span class="tech-badge">Keras</span>
+                            <span class="tech-badge">OpenCV</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                            <a href="#" target="_blank" class="btn-primary-link">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                            <a href="https://github.com/HarshadKaushal/FaceMask-Detection-using-Deep-Learning" target="_blank" class="btn-secondary-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-file-alt"></i>
-                        </div>
+                    <div class="project-icon">
+                        <i class="fas fa-question-circle"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Government Document Retrieval System</h3>
-                        <p class="project-year">2025</p>
-                        <p>
-                            Developed an automated document scraping system using Python and Beautiful Soup for efficient 
-                            government document retrieval and classification. Implemented intelligent document filtering to 
-                            distinguish between citizen-relevant and technical documents, enhancing information accessibility.
+                        <div class="project-header">
+                            <h3>Quizify</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-highlight">Interactive quiz platform with real-time scoring and dynamic question generation</p>
+                        <p class="project-description">
+                            MERN stack application featuring user authentication, live score tracking, and engaging UI/UX 
+                            for an immersive quiz-taking experience with instant feedback.
                         </p>
                         <div class="project-tech">
-                            <span>Python</span>
-                            <span>Flask</span>
-                            <span>Beautiful Soup</span>
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Express</span>
+                            <span class="tech-badge">MongoDB</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" target="_blank" class="btn-primary-link">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                            <a href="https://github.com/HarshadKaushal/Quizify-PSII" target="_blank" class="btn-secondary-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
+                    <div class="project-icon">
+                        <i class="fas fa-file-alt"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Location-Based Alarm App</h3>
-                        <p class="project-year">2025</p>
-                        <p>
-                            Developed a React Native and TypeScript mobile application for setting location-based alarms. 
-                            Integrated GPS and geofencing to trigger alarms only when the user enters a specified location. 
-                            Implemented real-time location tracking with optimized background services for efficient battery usage.
+                        <div class="project-header">
+                            <h3>Government Document Retrieval System</h3>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <p class="project-highlight">Automated scraping with intelligent filtering for citizen-relevant documents</p>
+                        <p class="project-description">
+                            Python-based system using Beautiful Soup for efficient document retrieval and classification, 
+                            automatically distinguishing between citizen-relevant and technical documents.
                         </p>
                         <div class="project-tech">
-                            <span>React Native</span>
-                            <span>TypeScript</span>
-                            <span>GPS</span>
-                            <span>Geofencing</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Flask</span>
+                            <span class="tech-badge">Beautiful Soup</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" target="_blank" class="btn-primary-link">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                            <a href="https://github.com/HarshadKaushal/Government-Document-Search-System" target="_blank" class="btn-secondary-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Location-Based Alarm App</h3>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <p class="project-highlight">Mobile app with GPS geofencing and optimized background location tracking</p>
+                        <p class="project-description">
+                            React Native application enabling location-based alarms that trigger when users enter specified 
+                            geofenced areas, with battery-optimized background services.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React Native</span>
+                            <span class="tech-badge">TypeScript</span>
+                            <span class="tech-badge">GPS</span>
+                            <span class="tech-badge">Geofencing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-primary-link">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                            <a href="https://github.com/HarshadKaushal/Location-based-AlarmApp" target="_blank" class="btn-secondary-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
                         </div>
                     </div>
                 </div>
